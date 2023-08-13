@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header><h2>HTML and CSS</h2></header>
+        <ul>
+            <li><a href="#Basic_CSS" class="nav-link">Basic CSS</a></li>
+            <li><a href="#Accessibilty" class="nav-link">Accessibilty</a></li>
+            <li><a href="#CSS_Flexbox" class="nav-link">CSS Flexbox</a></li>
+            <li><a href="#CSS_Grid" class="nav-link">CSS Grid</a></li>
+            <li><a href="#Basic_HTML" class="nav-link">Basic HTML</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-doc">
+        <section id="Basic_CSS" class="main-section">    
+            <header>
+                <h2>Basic CSS</h2>
+            </header>
+            <p>
+            Welcome to freeCodeCamp's HTML coding challenges. These will walk you through web development step-by-step.First, you'll start by building a simple web page using HTML. You can edit code in your code editor, which is embedded into this web page.
+            </p>
+            <p>
+            Do you see the code in your code editor that says <code>h1</code>? That's an HTML element.Most HTML elements have an opening tag and a closing tag.
+            </p>
+        </section>
+        
+        <section id="Accessibilty" class="main-section">    
+            <header>
+                <h2>Accessibilty</h2>
+            </header>
+            <p>
+            You've likely seen an <code>alt</code> attribute on an <code>img</code> tag in other challenges. <code>alt</code> text describes the image's content and provides a text-alternative for it. An <alt>alt</alt> attribute helps in cases where the image fails to load or can't be seen by a user. Search engines also use it to understand what an image contains to include it in search results.</p>
+            <p>
+            People with visual impairments rely on screen readers to convert web content to an audio interface. They won't get information if it's only presented visually. For images, screen readers can access the <alt>alt</alt> attribute and read its contents to deliver key information.</p>
+        </section>
+        
+        <section id="CSS_Flexbox" class="main-section">    
+            <header>
+                <h2>CSS Flexbox</h2>
+            </header>
+            <p>
+            This section uses alternating challenge styles to show how to use CSS to position elements in a flexible way. First, a challenge will explain theory, then a practical challenge using a simple tweet component will apply the flexbox concept.
+            </p>
+            <p>
+            Placing the CSS property <code>display: flex;</code> on an element allows you to use other flex properties to build a responsive page. you can use <code>justify-content</code> with many options like the following: 
+                <ul>
+                    <li>flex-start</li>
+                    <li>flex-end</li>
+                    <li>space-between</li>
+                    <li>space-around</li>
+                    <li>space-evenly</li>
+                </ul>
+            </p>
+        </section>
+        
+        <section id="CSS_Grid" class="main-section">    
+            <header>
+                <h2>CSS Grid</h2>
+            </header>
+            <p>
+            Turn any HTML element into a grid container by setting its <code>display</code> property to <code>grid</code>. This gives you the ability to use all the other properties associated with CSS Grid.
+            </p>
+            <p>
+            Simply creating a grid element doesn't get you very far. You need to define the structure of the grid as well. To add some columns to the grid, use the <code>grid-template-columns</code> property on a grid container as demonstrated below:
+            </p>
+        </section>
+        
+        <section id="Basic_HTML" class="main-section">    
+            <header>
+                <h2>Basic HTML</h2>
+            </header>
+            <p>
+            Inside that style block, you can create a CSS selector for all <code>h2</code> elements. For example, if you wanted all <code>h2</code> elements to be red, you would add a style rule that looks like this:
+            </p>
+            <p>
+            Note that it's important to have both opening and closing curly braces <code>({</code> and <code>})</code> around each element's style rule(s). You also need to make sure that your element's style definition is between the opening and closing style tags. Finally, be sure to add a semicolon to the end of each of your element's style rules.
+            </p>
+        </section>
+        
+    </main>
+    </body>
+</html>
